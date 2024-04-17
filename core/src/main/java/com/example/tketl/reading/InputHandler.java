@@ -1,7 +1,7 @@
 package com.example.tketl.reading;
 
 
-import com.example.tketl.api.DTO.source.BaseDTO;
+import org.example.structure.DTO.source.BaseDTO;
 import com.example.tketl.archive.manager.ArchiveManager;
 import com.example.tketl.archive.save.ArchiveSaveType;
 import com.example.tketl.exceptions.StepNotFoundException;

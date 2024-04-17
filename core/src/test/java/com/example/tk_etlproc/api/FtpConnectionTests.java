@@ -30,10 +30,7 @@ public class FtpConnectionTests {
 
 
     }
-    @Test
-    void test(){
-        assert 1==1;
-    }
+
 
 
 }

@@ -1,7 +1,7 @@
 package com.example.tketl.archive.manager;
 
-import com.example.tketl.api.DTO.source.ConfigDatabaseDTO;
-import com.example.tketl.api.DTO.source.ConfigFileDTO;
+import org.example.structure.DTO.source.ConfigDatabaseDTO;
+import org.example.structure.DTO.source.ConfigFileDTO;
 import com.example.tketl.archive.save.ArchiveFileSaver;
 import com.example.tketl.db.log.entities.ArchiveLog;
 import com.example.tketl.db.log.repo.ArchiveLogRepository;

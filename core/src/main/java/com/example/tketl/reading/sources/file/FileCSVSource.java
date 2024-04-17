@@ -1,6 +1,6 @@
 package com.example.tketl.reading.sources.file;
 
-import com.example.tketl.api.DTO.source.ConfigFileDTO;
+import org.example.structure.DTO.source.ConfigFileDTO;
 import com.example.tketl.archive.manager.ArchiveManager;
 import com.example.tketl.exceptions.InvalidColumnNameException;
 import com.example.tketl.exceptions.StepNotFoundException;

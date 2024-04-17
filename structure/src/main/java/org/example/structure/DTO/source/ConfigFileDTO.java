@@ -12,4 +12,6 @@ public class ConfigFileDTO extends BaseDTO {
     public FileType type;
 
 
+
+
 }

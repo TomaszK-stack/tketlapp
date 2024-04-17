@@ -5,100 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee5fded-3e8a-4ef6-b0e5-3f11b2c496b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/MyCommandLineRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/TkEtlprocApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/Test2Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/TestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/BaseDestinationEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/FileDestinationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/SqlDestinationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/processing/ConfigProcessingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/BaseScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/FileScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/SqlScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigDatabaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigFTPDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigFileDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingFileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingSqlController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingFileScheduleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingSqlScheduleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/manager/ArchiveManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/save/ArchiveFileSaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/save/ArchiveSaveType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/aspects/errors/ExceptionHandlerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/config/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/db/log/entities/ArchiveLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/db/log/repo/ArchiveLogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/exceptions/InvalidColumnNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/exceptions/InvalidOperationNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/exceptions/StepNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/exceptions/handle/ResponseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/InputStepData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/InputStepMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/OutputFromStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/NormalConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/BaseStepMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/filter/ConditionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/filter/FilterRowStepMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/filter/FilterRowsStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/groupby/GroupByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/groupby/GroupByStepMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/join/JoinColumnStepMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/join/JoinColumnsStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/nullif/NullifStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/nullif/NullifStepMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/unique/UniqueRowsStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/InputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileCSVSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileXLSXSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/ftp/FTPSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSourceDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/saving/BaseDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/saving/DestinationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/saving/file/FileDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/saving/sql/SqlServerDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/example/tk_etlproc/TkEtlprocApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/example/tk_etlproc/api/FtpConnectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/ScheduleRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/JobDataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/jobs/InvokeSourceJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/services/InvokeScheduleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/Test2Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/TestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/destination/BaseDestinationEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/destination/FileDestinationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/destination/SqlDestinationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/processing/ConfigProcessingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/schedule/BaseScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/schedule/FileScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/schedule/SqlScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigDatabaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigFTPDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigFileDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/TkEtlprocApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/TkEtlprocApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/Test2Dto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/TestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/BaseDestinationEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/FileDestinationDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/SqlDestinationDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/processing/ConfigProcessingDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/BaseScheduleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/FileScheduleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/SqlScheduleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/BaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigDatabaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigFTPDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigFileDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingSqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingSqlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingFileScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingFileScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingSqlScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingSqlScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/manager/ArchiveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/manager/ArchiveManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/NormalConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/NormalConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/InputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileCSVSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileCSVSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileXLSXSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileXLSXSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/ftp/FTPSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/ftp/FTPSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSourceDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSourceDefault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/example/tk_etlproc/api/FtpConnectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/com/example/tk_etlproc/api/FtpConnectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/jobs/FileInvokeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/jobs/FileInvokeJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigFileDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigFileDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,33 +77,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/korni/IdeaProjects/tketl/structure/src/main/java/org/example/structure/DTO",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "2f79018a6c27ba30bd6551990eb3321a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/korni/IdeaProjects/tketl/structure/src/main/java/org/example/structure/DTO&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2f79018a6c27ba30bd6551990eb3321a&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "sqlserver",
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;sqlserver&quot;,
+      &quot;sqlserver.localdb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\korni\IdeaProjects\tketl\structure\src\main\java\org\example\structure\DTO" />
@@ -170,7 +111,7 @@
       <recent name="C:\Users\korni\IdeaProjects\tketl\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.TkEtlprocApplication">
+  <component name="RunManager" selected="Spring Boot.ScheduleRunner (1)">
     <configuration name="ScheduleRunner (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="scheduling" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.scheduling.ScheduleRunner" />
@@ -235,8 +176,36 @@
       <workItem from="1712863092598" duration="4256000" />
       <workItem from="1713032997991" duration="8982000" />
       <workItem from="1713091230743" duration="2812000" />
-      <workItem from="1713106301201" duration="1646000" />
+      <workItem from="1713106301201" duration="6771000" />
+      <workItem from="1713292737081" duration="2719000" />
+      <workItem from="1713372781491" duration="797000" />
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/nullif/NullifStep.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/nullif/NullifStep.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/groupby/GroupByStep.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/steps/groupby/GroupByStep.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

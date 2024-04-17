@@ -19,7 +19,7 @@ public class FileInvokeJob extends InvokeSourceJob{
         if (fileDTO == null){
             throw new NullPointerException("There is no configuration provided");
         }
-        sendRequest(fileDTO, ScheduleType.FILE + "/" + fileDTO.getType().toString());
+        sendRequest(fileDTO, ScheduleType.FILE + "/" + fileDTO.type.toString());
     }
 
 
