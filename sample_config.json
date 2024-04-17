@@ -1,0 +1,35 @@
+{
+  "uniquerows":{} //without arguments it returns the unique rows from dataset
+
+  "nullif": {
+    "columnName": "age",
+    "columnValueExpression": "age",
+    "valueLogicExpression": "18"
+  }, // returns null in columnName if in columnValueExpression occurs valueLogicExpression
+  "groupby":{
+    "columnToGroup":"sex",
+    "operationColumn":"children",
+    "operation":"sum"
+  }, it groups data by columnToGroup and make operation on operationColumn, available operation; sum, avg
+  "filterrows":{
+    "conditionType":"EQUAL",
+
+    "column1":"sex",
+    "column2":"male",
+
+
+    "meetsCondition":true,
+    "staticValue":true
+
+  },// filer rows using conditionType,  available conditionType;    EQUAL,NOT_EQUAL,LARGER,SMALLER if staticValue
+  is true then it compare column1 to static value from column2 otherwise it compares value from column1 to value from column2
+{
+  "newColumnName": "test",
+  "columnsToJoinList": [
+    "a",
+    "b"
+  ]
+
+}// this step just join 2 or more columns from columnsToJoinList into one newColumnName
+
+}

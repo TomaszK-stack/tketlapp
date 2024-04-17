@@ -6,40 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aee5fded-3e8a-4ef6-b0e5-3f11b2c496b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/TkEtlprocApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/TkEtlprocApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/Test2Dto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/TestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/BaseDestinationEndpoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/FileDestinationDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/destination/SqlDestinationDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/processing/ConfigProcessingDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/BaseScheduleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/FileScheduleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/schedule/SqlScheduleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/BaseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigDatabaseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigFTPDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/DTO/source/ConfigFileDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingSqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/onetime/ReadingSqlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingFileScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingFileScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingSqlScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/api/controllers/scheduling/ReadingSqlScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/manager/ArchiveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/archive/manager/ArchiveManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/NormalConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/processing/configreader/NormalConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/InputHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileCSVSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileCSVSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileXLSXSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/file/FileXLSXSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/ftp/FTPSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/ftp/FTPSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSourceDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/tketl/reading/sources/sql/SqlSourceDefault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/example/tk_etlproc/api/FtpConnectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/com/example/tk_etlproc/api/FtpConnectionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/jobs/FileInvokeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/src/main/java/com/example/scheduling/main/jobs/FileInvokeJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigFileDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/structure/src/main/java/org/example/structure/DTO/source/ConfigFileDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +144,7 @@
       <workItem from="1713091230743" duration="2812000" />
       <workItem from="1713106301201" duration="6771000" />
       <workItem from="1713292737081" duration="2719000" />
-      <workItem from="1713372781491" duration="797000" />
+      <workItem from="1713372781491" duration="3514000" />
     </task>
     <servers />
   </component>

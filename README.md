@@ -7,3 +7,4 @@ Example request:
 
 Here I will attempt to describe what ConfigProcessingDTO means because the remaining fields denote input-output operations, which I have described in more detail in Postman in the documentation of individual requests. ConfigProcessingDTO contains a map called configProcessingmap where individual steps to be performed on our data are found. Currently, there are 5 steps available: filter, groupby, nullif, join, unique.
 The detailed description of these steps can be found in the file sample_config.json which i added into project.
+Postman Api collection: https://www.postman.com/descent-module-astronaut-66671886/workspace/tketlapp/collection/25827206-5a1fbe6c-6bdf-4aa7-a27e-c4bd671df167?action=share&creator=25827206&active-environment=25827206-c254968b-99fe-4488-9f09-c7ebd3144203
