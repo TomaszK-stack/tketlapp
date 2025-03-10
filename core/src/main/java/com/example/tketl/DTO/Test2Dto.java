@@ -1,4 +1,4 @@
-package org.example.structure.DTO;
+package com.example.tketl.DTO;
 
 import java.util.ArrayList;
 import java.util.List;

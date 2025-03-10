@@ -1,7 +1,8 @@
 package com.example.tketl.reading;
 
 
-import org.example.structure.DTO.source.BaseDTO;
+import com.example.tketl.DTO.processing.ConfigProcessingDTO;
+import com.example.tketl.DTO.source.BaseDTO;
 import com.example.tketl.archive.manager.ArchiveManager;
 import com.example.tketl.archive.save.ArchiveSaveType;
 import com.example.tketl.exceptions.StepNotFoundException;
@@ -13,6 +14,7 @@ import com.example.tketl.processing.steps.BaseStep;
 import com.example.tketl.saving.BaseDestination;
 import com.example.tketl.saving.DestinationReader;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -22,6 +24,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Component
+
 public class InputHandler {
 
     private NormalConfigReader configReader;
@@ -41,14 +44,18 @@ public class InputHandler {
     public List<OutputFromStep> handle_data(StringBuilder data, String delimiter, boolean header, BaseDTO baseDTO) throws StepNotFoundException, SQLException, ClassNotFoundException, IOException {
         InputStepData inputStepData = prepare_data(data, delimiter, header);
         InputStepMeta inputStepMeta = prepareMeta(inputStepData, header);
-        List<BaseStep> stepList = configReader.readConfig(baseDTO.getConfigProcessingDTO());
+        ConfigProcessingDTO processingDTO = baseDTO.getConfigProcessingDTO();
         List<OutputFromStep> outputList = new ArrayList<>();
-        for (BaseStep step : stepList) {
-            step.setInputStepMeta(new InputStepMeta(inputStepMeta));
-            step.setInputStepData(new InputStepData(inputStepData));
-            outputList.add(step.processData());
-            inputStepData = step.getInputStepData();
-            inputStepMeta = step.getInputStepMeta();
+        if (processingDTO != null){
+            List<BaseStep> stepList = configReader.readConfig(baseDTO.getConfigProcessingDTO());
+
+            for (BaseStep step : stepList) {
+                step.setInputStepMeta(new InputStepMeta(inputStepMeta));
+                step.setInputStepData(new InputStepData(inputStepData));
+                outputList.add(step.processData());
+                inputStepData = step.getInputStepData();
+                inputStepMeta = step.getInputStepMeta();
+            }
         }
         if(baseDTO.getDestinationType() != null) {
             BaseDestination destination = destinationReader.readDestinationConfig(baseDTO.getDestinationType(), baseDTO.getDestinationElementsList());

@@ -12,24 +12,24 @@ import java.io.PrintWriter;
 import java.util.Collection;
 
 public class FtpConnectionTests {
-    @Test
-    void testConnectionFtp() throws IOException {
-        FTPClient ftp = new FTPClient();
-
-        ftp.addProtocolCommandListener(new PrintCommandListener(new PrintWriter(System.out)));
-
-        ftp.connect("eu-central-1.sftpcloud.io", 21);
-        int reply = ftp.getReplyCode();
-        if (!FTPReply.isPositiveCompletion(reply)) {
-            ftp.disconnect();
-            throw new IOException("Exception in connecting to FTP Server");
-        }
-
-        ftp.login("359c4274d076459488551ef3d4c9809b", "7ksj2SXMsQnEVIqHYAKFlzdFRzhuZORy");
-        FTPFile[] files = ftp.listFiles("");
-
-
-    }
+//    @Test
+//    void testConnectionFtp() throws IOException {
+//        FTPClient ftp = new FTPClient();
+//
+//        ftp.addProtocolCommandListener(new PrintCommandListener(new PrintWriter(System.out)));
+//
+//        ftp.connect("eu-central-1.sftpcloud.io", 21);
+//        int reply = ftp.getReplyCode();
+//        if (!FTPReply.isPositiveCompletion(reply)) {
+//            ftp.disconnect();
+//            throw new IOException("Exception in connecting to FTP Server");
+//        }
+//
+//        ftp.login("359c4274d076459488551ef3d4c9809b", "7ksj2SXMsQnEVIqHYAKFlzdFRzhuZORy");
+//        FTPFile[] files = ftp.listFiles("");
+//
+//
+//    }
 
 
 

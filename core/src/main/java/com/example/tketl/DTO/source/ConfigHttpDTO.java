@@ -1,16 +1,16 @@
-package org.example.structure.DTO.source;
+package com.example.tketl.DTO.source;
 
 import lombok.Data;
 
 @Data
-public class ConfigFileDTO extends BaseDTO {
-    public String path;
+public class ConfigHttpDTO extends BaseDTO{
+    public String url;
+    
     public String delimiter;
 
     public boolean header;
 
     public FileType type;
-
 
 
 

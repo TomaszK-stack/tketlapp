@@ -1,9 +1,9 @@
-package org.example.structure.DTO.source;
+package com.example.tketl.DTO.source;
 
 
 import lombok.Getter;
-import org.example.structure.DTO.destination.BaseDestinationEndpoint;
-import org.example.structure.DTO.processing.ConfigProcessingDTO;
+import com.example.tketl.DTO.destination.BaseDestinationEndpoint;
+import com.example.tketl.DTO.processing.ConfigProcessingDTO;
 
 import java.io.Serializable;
 import java.util.List;

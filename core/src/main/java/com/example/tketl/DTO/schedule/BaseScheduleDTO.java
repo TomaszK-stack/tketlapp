@@ -1,8 +1,8 @@
-package org.example.structure.DTO.schedule;
+package com.example.tketl.DTO.schedule;
 
 
 import lombok.Data;
-import org.example.structure.DTO.source.BaseDTO;
+import com.example.tketl.DTO.source.BaseDTO;
 
 import java.io.Serializable;
 

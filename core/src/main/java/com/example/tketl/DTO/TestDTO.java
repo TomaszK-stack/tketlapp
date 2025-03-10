@@ -1,4 +1,4 @@
-package org.example.structure.DTO;
+package com.example.tketl.DTO;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

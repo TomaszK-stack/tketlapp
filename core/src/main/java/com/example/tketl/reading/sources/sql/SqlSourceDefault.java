@@ -1,14 +1,12 @@
 package com.example.tketl.reading.sources.sql;
 
-import org.example.structure.DTO.source.ConfigDatabaseDTO;
+import com.example.tketl.DTO.source.ConfigDatabaseDTO;
 import com.example.tketl.archive.manager.ArchiveManager;
 import com.example.tketl.exceptions.InvalidColumnNameException;
 import com.example.tketl.exceptions.StepNotFoundException;
 import com.example.tketl.processing.OutputFromStep;
 import com.example.tketl.archive.save.ArchiveSaveType;
 import com.example.tketl.reading.InputHandler;
-import com.example.tketl.reading.sources.sql.SqlSource;
-import com.example.tketl.reading.sources.sql.SqlType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

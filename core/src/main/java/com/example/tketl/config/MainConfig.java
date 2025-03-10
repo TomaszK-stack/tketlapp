@@ -18,7 +18,7 @@ public class MainConfig {
 
         DataSource dataSource = DataSourceBuilder.create()
                 .driverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver")
-                .url("jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=etl")
+                .url("jdbc:sqlserver://sqlserver:1433;encrypt=true;trustServerCertificate=true;databaseName=etl")
                 .username("sa")
                 .password("KsiazeHarry321!!")
                 .build();

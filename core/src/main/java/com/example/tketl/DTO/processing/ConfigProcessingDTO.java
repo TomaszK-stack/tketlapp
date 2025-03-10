@@ -1,4 +1,4 @@
-package org.example.structure.DTO.processing;
+package com.example.tketl.DTO.processing;
 
 import lombok.Data;
 

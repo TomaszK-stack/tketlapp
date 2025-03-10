@@ -1,4 +1,4 @@
-package org.example.structure.DTO.destination;
+package com.example.tketl.DTO.destination;
 
 import lombok.Getter;
 

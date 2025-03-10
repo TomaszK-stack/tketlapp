@@ -1,4 +1,4 @@
-package org.example.structure.DTO.source;
+package com.example.tketl.DTO.source;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

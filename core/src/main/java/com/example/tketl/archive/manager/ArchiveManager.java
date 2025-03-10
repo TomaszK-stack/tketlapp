@@ -1,7 +1,8 @@
 package com.example.tketl.archive.manager;
 
-import org.example.structure.DTO.source.ConfigDatabaseDTO;
-import org.example.structure.DTO.source.ConfigFileDTO;
+import com.example.tketl.DTO.source.ConfigDatabaseDTO;
+import com.example.tketl.DTO.source.ConfigFileDTO;
+import com.example.tketl.DTO.source.ConfigHttpDTO;
 import com.example.tketl.archive.save.ArchiveFileSaver;
 import com.example.tketl.db.log.entities.ArchiveLog;
 import com.example.tketl.db.log.repo.ArchiveLogRepository;
@@ -27,6 +28,7 @@ public class ArchiveManager {
     public ArchiveManager(ArchiveLogRepository logRepository, ArchiveFileSaver fileSaver) {
         this.logRepository = logRepository;
         this.fileSaver = fileSaver;
+
     }
 
     public void startProcessing(String sourceType, String source, String destinationType, List<String> destination, String originalFileName ){
@@ -91,6 +93,9 @@ public class ArchiveManager {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    public void saveArchive(ConfigHttpDTO configHttpDTO){
+        startProcessing("http", configHttpDTO.getUrl(), configHttpDTO.getDestinationType(), configHttpDTO.getDestinationElementsList());
     }
     public void saveArchive(StringBuilder data, ArchiveSaveType saveType){
         try {

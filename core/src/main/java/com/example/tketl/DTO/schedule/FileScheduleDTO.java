@@ -1,8 +1,8 @@
-package org.example.structure.DTO.schedule;
+package com.example.tketl.DTO.schedule;
 
 
 import lombok.Data;
-import org.example.structure.DTO.source.ConfigFileDTO;
+import com.example.tketl.DTO.source.ConfigFileDTO;
 
 @Data
 public class FileScheduleDTO extends BaseScheduleDTO {

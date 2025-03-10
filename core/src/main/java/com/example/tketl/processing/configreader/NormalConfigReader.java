@@ -1,8 +1,7 @@
 package com.example.tketl.processing.configreader;
 
-import org.example.structure.DTO.processing.ConfigProcessingDTO;
+import com.example.tketl.DTO.processing.ConfigProcessingDTO;
 import com.example.tketl.exceptions.StepNotFoundException;
-import com.example.tketl.processing.configreader.ConfigReader;
 import com.example.tketl.processing.steps.BaseStep;
 import com.example.tketl.processing.steps.filter.ConditionType;
 import com.example.tketl.processing.steps.filter.FilterRowStepMeta;

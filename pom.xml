@@ -11,6 +11,5 @@
     <module>core</module>
     <module>schedule</module>
 
-    <module>structure</module>
   </modules>
 </project>

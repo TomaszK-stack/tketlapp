@@ -1,12 +1,11 @@
 package com.example.tketl.reading.sources.file;
 
-import org.example.structure.DTO.source.ConfigFileDTO;
+import com.example.tketl.DTO.source.ConfigFileDTO;
 import com.example.tketl.archive.manager.ArchiveManager;
 import com.example.tketl.exceptions.InvalidColumnNameException;
 import com.example.tketl.exceptions.StepNotFoundException;
 import com.example.tketl.processing.OutputFromStep;
 import com.example.tketl.reading.InputHandler;
-import com.example.tketl.reading.sources.file.FileSource;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

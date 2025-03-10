@@ -1,8 +1,7 @@
 package com.example.tketl.api.controllers.scheduling;
 
-import org.example.structure.DTO.schedule.SqlScheduleDTO;
+import com.example.tketl.DTO.schedule.SqlScheduleDTO;
 import org.quartz.SchedulerException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

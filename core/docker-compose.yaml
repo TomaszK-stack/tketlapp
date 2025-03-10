@@ -1,0 +1,28 @@
+version: '3'
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=KsiazeHarry321!!
+    ports:
+      - "1433:1433"
+    networks:
+      - my_network
+    restart: always
+
+  myapp:
+    build: .
+    container_name: myapp
+    depends_on:
+      - sqlserver
+    ports:
+      - "8080:8080" # Zakładając, że aplikacja nasłuchuje na porcie 8080
+    networks:
+      - my_network
+    restart: always
+
+networks:
+  my_network:
+    driver: bridge

@@ -1,6 +1,6 @@
 package com.example.tketl.reading.sources.file;
 
-import org.example.structure.DTO.source.ConfigFileDTO;
+import com.example.tketl.DTO.source.ConfigFileDTO;
 import com.example.tketl.archive.manager.ArchiveManager;
 import com.example.tketl.exceptions.InvalidColumnNameException;
 import com.example.tketl.exceptions.StepNotFoundException;
@@ -14,7 +14,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Component
-public abstract class FileSource extends Source {
+public abstract class FileSource implements Source {
 
 
    private ArchiveManager manager;
