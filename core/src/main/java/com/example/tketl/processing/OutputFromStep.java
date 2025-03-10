@@ -20,6 +20,7 @@ public class OutputFromStep {
     public OutputFromStep(InputStepData inputStepData, InputStepMeta inputStepMeta) {
         this.inputStepData = inputStepData;
         this.inputStepMeta = inputStepMeta;
+
     }
 
 
