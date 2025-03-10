@@ -15,6 +15,7 @@
     <description>scheduling</description>
     <properties>
         <java.version>17</java.version>
+        <maven.skip>true</maven.skip>
     </properties>
 
     <dependencies>
